@@ -1,0 +1,69 @@
+.container{
+    width: 100%;
+    position: relative;
+}
+.container img{
+    width: 100%;
+}
+.textContainer{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+.textContainer h1{
+    font-size: 7rem;
+    color: #696969;
+}
+.textContainer h2{
+    font-size: 4rem;
+    margin-top: 20px;
+    color: #414040;
+}
+.textContainer span{
+    color: #30c0e4;
+    font-weight: bold;
+}
+
+@media (max-width: 982px){
+    .textContainer h1{
+        font-size: 3rem;
+    }
+    .textContainer h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 681px){
+    .textContainer{    
+        top: 75px;
+        left: 50px;
+    }
+}
+@media (max-width: 478px) {
+    .textContainer{ 
+        top: 30px;
+        left: 10px;
+    }
+    .textContainer h1{
+        font-size: 2rem;
+    }
+    .textContainer h2{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 310px) {   
+    .textContainer h1{
+        font-size: 1rem;
+    }
+    .textContainer h2{
+        font-size: 0.5rem;
+    }
+}
+@media (max-width: 200px) {
+    .textContainer h1{
+        font-size: 0.5rem;
+    }
+    .textContainer h2{
+        font-size: 0.25rem;
+    }
+}

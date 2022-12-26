@@ -1,0 +1,63 @@
+.container img{
+    width:300px;
+    height: 200px;
+}
+.container{
+    margin: 10px;
+    width: 300px;
+    background-color: #ececec;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgb(189, 189, 189);
+}
+.container h3{
+    color: #696969;
+    margin: 30px 20px 20px;
+}
+.container p{
+    margin: 0 25px 20px;
+    background-color: rgb(10, 145, 46);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.counter{
+    display:flex; 
+    border-top: 1px rgb(163, 161, 161) solid;
+    align-items: center; 
+    justify-content: space-around;
+    justify-items: center;
+    padding: 5px 0;
+}
+.counter section{
+    display: flex;
+    align-items: center; 
+}
+.counter img{
+    width: 30px;
+    height: fit-content;
+    padding: 5px;
+    cursor: pointer;
+}
+.counter span{
+    color: #fff;
+    background-color: rgb(95, 105, 250);
+    padding: 5px;
+    border-radius: 100%;
+}
+.counter section button{
+    border: #e7d6d6 2px solid;
+    box-shadow: #e7d6d8 1px 1px 3px;
+    border-radius: 5px;
+    background-color: #f81b1b;
+    padding: 5px 10px;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    color: #fff;
+    cursor: pointer;
+}
+.deActive{
+    opacity: 0.3;
+}

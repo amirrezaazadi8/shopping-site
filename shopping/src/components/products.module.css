@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+@media (max-width: 750px) {
+    .container{
+        flex-direction: column;
+        width: 300px;
+        justify-content: space-evenly;
+        
+    }
+}
